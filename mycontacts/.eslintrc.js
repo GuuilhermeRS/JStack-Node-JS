@@ -11,5 +11,9 @@ module.exports = {
     ecmaVersion: 13,
   },
   rules: {
+    'class-methods-use-this': 'off',
+    'no-trailing-spaces': 'off',
+    'consistent-return': 'off',
+    camelcase: 'off',
   },
 };
